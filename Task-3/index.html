@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Fun Zone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎉 Welcome to the Fun Zone!</h1>
+    <p>Play a quiz, see random jokes, and enjoy responsive design!</p>
+  </header>
+
+  <section class="quiz-section">
+    <h2>🧠 Quick Quiz</h2>
+    <div id="quiz-container">
+      <div id="question"></div>
+      <div id="options"></div>
+      <div id="score"></div>
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2>🤣 Get a Random Joke</h2>
+    <button type="button" onclick="getJoke()">Tell Me a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+  <footer>
+    <p>🌟 Built with HTML, CSS & JavaScript | Responsive Design | Quiz | API Data</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
